@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="C969-Project/C969-Project.csproj" />
+  <Project Path="C969-Project.Tests/C969-Project.Tests.csproj" />
 </Solution>
