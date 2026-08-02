@@ -9,4 +9,10 @@ namespace C969_Project.Database
         Edit,
         Add,
     }
+
+    public enum Language
+    {
+        English,
+        German,
+    }
 }
