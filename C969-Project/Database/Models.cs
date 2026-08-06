@@ -26,6 +26,18 @@ namespace C969_Project.Database
         public bool Active { get; set; }
     }
 
+    //A User authenticates into the application. A User is never a Customer -
+    //Customer is a managed record that never logs in - so the two models stay
+    //separate even though both are audited rows.
+    public class User : AuditableModel
+    {
+        public int UserId { get; set; }
+
+        public string UserName { get; set; } = string.Empty;
+
+        public bool Active { get; set; }
+    }
+
     public class Country : AuditableModel
     {
         public int CountryId { get; set; }
