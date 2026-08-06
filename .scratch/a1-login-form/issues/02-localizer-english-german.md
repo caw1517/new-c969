@@ -12,10 +12,10 @@ German strings must be proofread by the developer — German was chosen over Fre
 
 **Status:** ready-for-agent
 
-- [ ] A Language type exists with English and German
-- [ ] Resolving a German-speaking region returns German
-- [ ] Resolving a non-German-speaking region returns English
-- [ ] Looking up a key returns the expected string in each Language
-- [ ] Looking up an unknown key fails loudly and observably
-- [ ] Resolution accepts a region as input — no test requires changing the OS locale
-- [ ] Translations live in in-memory dictionaries, with no `.resx` used for login text
+- [x] A Language type exists with English and German
+- [x] Resolving a German-speaking region returns German
+- [x] Resolving a non-German-speaking region returns English
+- [x] Looking up a key returns the expected string in each Language
+- [x] Looking up an unknown key fails loudly and observably
+- [x] Resolution accepts a region as input — no test requires changing the OS locale
+- [x] Translations live in in-memory dictionaries, with no `.resx` used for login text

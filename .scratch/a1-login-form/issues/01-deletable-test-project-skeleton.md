@@ -10,8 +10,8 @@ Pick one test framework (xUnit or MSTest) and stay consistent with it for every 
 
 **Status:** ready-for-agent
 
-- [ ] A test project exists in its own folder, added to the solution with a single entry
-- [ ] It references the main project; the main project has no reference to it
-- [ ] At least one trivial test exists and passes when the suite is run
-- [ ] No `[InternalsVisibleTo]` attribute appears anywhere in production code
-- [ ] Deletion procedure verified by hand: delete the test folder, remove its one solution entry, and the application still builds and launches
+- [x] A test project exists in its own folder, added to the solution with a single entry
+- [x] It references the main project; the main project has no reference to it
+- [x] At least one trivial test exists and passes when the suite is run
+- [x] No `[InternalsVisibleTo]` attribute appears anywhere in production code
+- [x] Deletion procedure verified by hand: delete the test folder, remove its one solution entry, and the application still builds and launches

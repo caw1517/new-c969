@@ -15,4 +15,11 @@ namespace C969_Project.Database
         English,
         German,
     }
+
+    public enum LoginResult
+    {
+        Success,
+        EmptyFields,
+        InvalidCredentials,
+    }
 }
